@@ -1,0 +1,30 @@
+.stat-section-wrapper{
+    background-color: orange;
+    height: auto;
+    margin-top: 150px;
+}
+.stat-section-wrapper img{
+    margin-top: 40px;
+}
+.stat-section-wrapper .count{
+    color: white;
+    font-size: 26px;
+    margin: 30px;
+}
+
+.stat-section-wrapper .count-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.stat-section-wrapper .size{
+    width: 50px;
+    height: 40px;
+}
+.fa-chalkboard-teacher{
+    margin-top: 40px;
+    font-size: 40px;
+}
+.fa-user-alt{
+    margin-top: 40px;
+    font-size: 40px; 
+}

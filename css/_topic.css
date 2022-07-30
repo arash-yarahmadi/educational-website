@@ -1,0 +1,114 @@
+.topic-section-wrapper{
+    background-image: url("../img/topic/30.jfif");
+    background-repeat: repeat;
+    background-position: center;
+    height: auto;
+}
+.topic-section-wrapper .im-size{
+    width: 250px!important;
+    height: 200px!important;
+}
+
+.topic-wrapper .card-header{
+    overflow: hidden;
+}
+.topic-section-wrapper:hover img{
+    transform: scale(1,2)  rotate(15dg);
+    -webkit-transform: scale(1,2)  rotate(15dg);
+    -moz-transform: scale(1,2)  rotate(15dg);
+    -ms-transform: scale(1,2)  rotate(15dg);
+    -o-transform: scale(1,2)  rotate(15dg);
+}
+
+.topic-wrapper .card{
+    box-shadow: 1px 5px 15px 2px #758623;
+}
+.card-body{
+    margin:10px 10px ;
+}
+
+.topic-wrapper .card-body p{
+    font-size: 14px;
+    color: rgb(110, 34, 182);
+}
+.topic-wrapper .card-body a{
+  font-size: 14px;
+}
+
+.topic-wrapper .card-footer ul li{
+    display: inline-block;
+}
+
+.topic-wrapper .card-footer ul li i,.topic-wrapper .card-footer ul li span{
+    color: rgb(122, 115, 115);
+    font-size: 16px;
+    margin: 0 10px;
+
+}
+
+section .container-fluid{
+    width: 100%;
+}
+.card-header img{
+    background-color: rgb(0, 0, 0, 1);
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.card img:hover{
+    opacity: 0.7;
+}
+
+.section-title-4{
+    text-align: center;
+}
+.section-title-4 span{
+    position: relative;  
+}
+
+.section-title-4 span::before{
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    top: 15px;
+    right: -45px;
+}
+
+.section-title-4 span::after{
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    top: 15px;
+    right: 170px;
+}
+
+@media (max-width: 575px){
+    .topic-section-wrapper .im-size{
+        width: 1000px!important;
+        height: 300px!important;
+    }
+    .custom.col-sm-12{
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+      }
+}
+
+  @media (min-width: 576px){
+    .topic-section-wrapper .im-size{
+        width: 500px!important;
+    } 
+}
+
+@media (min-width: 768px){
+    .topic-section-wrapper .im-size{
+        width: 500px!important;
+    }
+}
