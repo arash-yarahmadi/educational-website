@@ -1,0 +1,86 @@
+.teacher-section-wrapper{
+    background-image: url("../img/teacher/2.jpg");
+}
+
+.teacher-intro{
+    background: rgb(10, 67, 133);
+    height: auto;
+    margin-top: 525px;
+    width: 100%;
+    box-shadow: -1px 3px 7px 1px #7c7575;
+}
+
+.teacher-intro h5{
+    color: rgb(11, 206, 86);
+}
+
+.teacher-intro h5{
+    margin: 30px 0 30px 0;
+}
+.teacher-intro a{
+    display:inline-block;
+    padding: 5px 1px;
+    margin-bottom: 10px;
+    width: 100px;
+    border: 2px solid orange;
+
+}
+.teacher-intro a:hover{
+    background-color: orange;
+    color: white;
+}
+.section-title-3{
+    text-align: center;
+}
+.section-title-3 span{
+    position: relative;  
+}
+
+.section-title-3 span::before{
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    top: 15px;
+    right: -50px;
+}
+
+.section-title-3 span::after{
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    top: 15px;
+    right: 180px;
+}
+
+@media screen and (max-width: 1200px){
+    .teacher-intro{
+        margin-top: 470px;
+    }
+}
+@media screen and (max-width: 992px){
+    .teacher-intro{
+        margin-top: 400px;
+    }
+}
+@media screen and (max-width: 768px){
+    .teacher-intro{
+        margin-top: 250px;
+        width: 70%;
+    }
+    .teacher-intro h5{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px){
+    .teacher-intro{
+        margin-top: 400px;
+        width: 60%;
+    }
+    .teacher-intro h5,.teacher-intro a{
+        font-size: 16px;
+    }
+}
