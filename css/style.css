@@ -1,0 +1,86 @@
+@import "_contact.css";
+@import "_navbar.css";
+@import "_header.css";
+@import "_course.css";
+@import "_about-us.css";
+@import "_teacher.css";
+@import "_state.css";
+@import "_topic.css";
+@import "_faq.css";
+@import "_footer-grid.css";
+
+
+@font-face {
+    font-family: "vazir-medium";
+    src: url(../font/Vazir-Medium.eot) format("eot"), url(../font/Vazir-Medium.woff) format("woff"), url(../font/Vazir-Medium.woff2) format("woff");
+    font-weight: 700;
+    font-style: "normal";
+  }
+
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration:none!important;
+    color: #000;
+}
+li,ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container-fluid{
+    width: 100% !important;;
+}
+
+/* .nav a{
+    float: right;
+    color: #758623;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+}
+.nav a i.fa-bars{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+
+    .nav a.nav-a:not(:first-child){
+        display: none!important;
+    }
+    .position-nav{
+        position:relative
+    }
+    .position-nav .position-custom{
+        position:absolute;
+        left: 0px;
+    } 
+    .nav a i.fa-bars{
+        display: flex;
+        justify-self: end;
+    }
+    .nav.responsive{
+        position: relative;
+    }
+    .nav.responsive a i.fa-bars{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .nav.responsive a.nav-a{
+      display: block;
+      float: none;
+      text-align: left;
+    }
+
+} */
+
