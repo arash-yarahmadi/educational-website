@@ -1,0 +1,50 @@
+
+
+/*start navbar section style*/
+
+.nav{
+    background-color: #efefef;
+    overflow: hidden;
+}
+.nav a.nav-a{
+    float: right;
+    color: #758623;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+}
+
+.nav a:hover{
+    border-bottom: 1px solid red ;
+}
+
+ .nav a i.fa-bars{
+    display: none;
+}
+
+@media screen and(max-width: 600px){
+
+    .nav a.va-a:not(:first-child){
+        display: none!important;
+    }
+
+    .nav a.i{
+        display: block;
+        float: left;
+    }
+    .nav.responsive{
+        position: relative;
+    }
+    .nav.responsive a.icon{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+    }
+    .nav.responsive a{
+        float: none;
+        display: block;
+        text-align: right;
+    }
+
+}
